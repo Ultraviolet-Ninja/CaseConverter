@@ -1,1 +1,1 @@
-# CaseConverter
+# Naming Convention Case Converter
