@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'jacoco'
     id 'application'
+    id 'org.jetbrains.kotlin.jvm' version '1.6.10'
     id 'org.openjfx.javafxplugin' version '0.0.10'
 }
 
@@ -31,11 +32,11 @@ dependencies {
         exclude group: "org.javafx"
     }
 
-    testImplementation group: 'org.testng', name: 'testng', version: '7.4.0'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.5'
 }
 
 javafx {
-    version = '15'
+    version = '17'
     modules = [ 'javafx.controls', 'javafx.fxml', 'javafx.graphics']
 }
 
